@@ -12,7 +12,15 @@ import { Home2000Component } from './home2000/home2000.component';
 
 
 @NgModule({
-  declarations: [HomeComponent, Home1000Component, Home1100Component, Home1200Component, Home2200Component, Home2100Component, Home2000Component],
+  declarations: [
+    HomeComponent,
+    Home1000Component,
+    Home1100Component,
+    Home1200Component,
+    Home2200Component,
+    Home2100Component,
+    Home2000Component
+  ],
   imports: [
     CommonModule,
     HomeRoutingModule

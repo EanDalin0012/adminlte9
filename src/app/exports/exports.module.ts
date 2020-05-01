@@ -7,13 +7,23 @@ import { Export1200Component } from './export1200/export1200.component';
 import { Export2200Component } from './export2200/export2200.component';
 import { Export2100Component } from './export2100/export2100.component';
 import { Export2000Component } from './export2000/export2000.component';
+import { ExportsRoutingModule } from './exports-routing.module';
 
 
 
 @NgModule({
-  declarations: [ExportComponent, Export1000Component, Export1100Component, Export1200Component, Export2200Component, Export2100Component, Export2000Component],
+  declarations: [
+    ExportComponent,
+    Export1000Component,
+    Export1100Component,
+    Export1200Component,
+    Export2200Component,
+    Export2100Component,
+    Export2000Component
+  ],
   imports: [
-    CommonModule
+    CommonModule,
+    ExportsRoutingModule
   ]
 })
 export class ExportsModule { }

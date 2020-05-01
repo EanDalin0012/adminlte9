@@ -7,13 +7,23 @@ import { Import1200Component } from './import1200/import1200.component';
 import { Import2000Component } from './import2000/import2000.component';
 import { Import2100Component } from './import2100/import2100.component';
 import { Import2200Component } from './import2200/import2200.component';
+import { ImportsRoutingModule } from './imports-routing.module';
 
 
 
 @NgModule({
-  declarations: [ImportComponent, Import1000Component, Import1100Component, Import1200Component, Import2000Component, Import2100Component, Import2200Component],
+  declarations: [
+    ImportComponent,
+    Import1000Component,
+    Import1100Component,
+    Import1200Component,
+    Import2000Component,
+    Import2100Component,
+    Import2200Component
+  ],
   imports: [
-    CommonModule
+    CommonModule,
+    ImportsRoutingModule
   ]
 })
 export class ImportsModule { }

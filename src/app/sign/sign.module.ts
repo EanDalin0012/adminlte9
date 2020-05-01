@@ -7,7 +7,10 @@ import { SignRoutingModule } from './sign-routing.module';
 
 
 @NgModule({
-  declarations: [Sign1000Component, SignComponent],
+  declarations: [
+    Sign1000Component,
+    SignComponent
+  ],
   imports: [
     CommonModule,
     SignRoutingModule

@@ -8,7 +8,12 @@ import { Sale3000Component } from './sale3000/sale3000.component';
 
 
 @NgModule({
-  declarations: [SaleComponent, Sale1000Component, Sale2000Component, Sale3000Component],
+  declarations: [
+    SaleComponent,
+    Sale1000Component,
+    Sale2000Component,
+    Sale3000Component
+  ],
   imports: [
     CommonModule
   ]
