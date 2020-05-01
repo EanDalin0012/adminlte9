@@ -1,7 +1,5 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { NotificationModule } from '@progress/kendo-angular-notification';
 import 'hammerjs';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -23,8 +21,6 @@ import { SBSharedModule } from './shared/shared.module';
     MLayoutModule,
     AppRoutingModule,
     SBSharedModule.forRoot(),
-    NotificationModule,
-    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

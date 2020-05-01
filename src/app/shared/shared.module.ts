@@ -46,7 +46,23 @@ import { UploadModule } from '@progress/kendo-angular-upload';
   imports: [
     CommonModule,
     // CKEditorModule,
-    NotificationModule
+    NotificationModule,
+    BrowserAnimationsModule,
+    ButtonsModule,
+    ChartsModule,
+    DateInputsModule,
+    DialogsModule,
+    DropDownsModule,
+    ExcelExportModule,
+    GridModule,
+    InputsModule,
+    LayoutModule,
+    PDFExportModule,
+    ScrollViewModule,
+    SortableModule,
+    TooltipModule,
+    UploadModule,
+    HttpClientModule,
     // IsValidModelService
   ],
   exports : [
@@ -69,18 +85,6 @@ import { UploadModule } from '@progress/kendo-angular-upload';
     DiscountformatPipe,
     PercentformatPipe,
     AutofocusDirective,
-
-    BrowserAnimationsModule,
-    ButtonsModule,
-    ChartsModule,
-    DialogsModule,
-    ExcelExportModule,
-    InputsModule,
-    PDFExportModule,
-    ScrollViewModule,
-    TooltipModule,
-    UploadModule,
-    HttpClientModule,
     // IsValidModelService
     // AccountFormatePipe,
     // CurrencyFormatePipe
