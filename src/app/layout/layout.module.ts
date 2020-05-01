@@ -13,7 +13,6 @@ import { SideNavComponent } from './side-nav/side-nav.component';
   declarations: [
     FooterComponent,
     HeaderComponent,
-    LayoutBlankComponent,
     SettingsComponent,
     SideNavComponent],
   imports: [
